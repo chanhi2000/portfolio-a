@@ -1,6 +1,14 @@
-# Developer Portfolio
+# Portfolio-A
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+![shield-proj-v][shield-proj-v]
+![shield-license-gpl][shield-license-gpl]
+
+## What's included?
+
+![shield-node][shield-node]
+![shield-react][shield-react]
+![shield-next][shield-next]
+![shield-tailwindcss][shield-tailwindcss]
 
 ---
 
@@ -12,7 +20,7 @@
 
 ---
 
-## Table of Contents :scroll:
+## :scroll: Table of Contents 
 
 - [Sections](#sections-bookmark)
 - [Demo](#demo-movie_camera)
@@ -34,50 +42,13 @@
 - BLOG
 - CONTACTS
 
----
+## 🚀Quickstart
 
-# Installation :arrow_down:
+### Build & Run
 
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-```
-node --version
-git --version
-```
-
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+```sh
+npm i;       # install all dependencies
+npm run dev; # run locally 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -96,11 +67,11 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/chanhi2000/portfolio-a/tree/main/utils/data).
 
 Eg:
 
-```javascript
+```js
 export const personalData = {
   name: "ABU SAID",
   profile: "/profile.png",
@@ -124,8 +95,6 @@ export const personalData = {
 
 ---
 
----
-
 # Packages Used :package:
 
 | Used Package List  |
@@ -140,3 +109,10 @@ export const personalData = {
 |    tailwindcss     |
 
 ---
+
+[shield-proj-v]: https://img.shields.io/github/package-json/v/chanhi2000/crashcourse?style=flat-square
+[shield-license-gpl]: https://img.shields.io/aur/license/node?style=flat-square
+[shield-node]: https://img.shields.io/badge/node.js-18.12.x-339933?logo=nodedotjs&logoColor=339933&style=flat-square
+[shield-react]: https://img.shields.io/badge/react.js-18.2.x-61DAFB?logo=react&logoColor=61DAFB&style=flat-square
+[shield-next]: https://img.shields.io/badge/next.js-18.2.x-000000?logo=nextdotjs&logoColor=000000&style=flat-square
+[shield-tailwindcss]: https://img.shields.io/badge/next.js-3.3.x-06B6D4?logo=tailwindcss&logoColor=06B6D4&style=flat-square
